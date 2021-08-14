@@ -88,3 +88,32 @@ button:focus{
    justify-content: center;
     
 }
+
+
+/* responsiveness */
+@media(max-width:800px) {
+    body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 97%;
+        padding: 0rem;
+        margin: 2rem;
+    }
+    label{
+        margin-left: 1.4rem;
+    }
+    input{
+        margin-left: 1rem;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin-left: 6.5rem;
+    }
+}
+
